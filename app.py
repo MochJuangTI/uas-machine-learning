@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the data
-file_path = '/content/DATA RUMAH (1).xlsx'
+file_path = './DATA RUMAH (1).xlsx'
 data = pd.read_excel(file_path, engine='openpyxl')
 
 # Remove duplicate entries
